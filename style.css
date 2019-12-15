@@ -1,0 +1,110 @@
+/*顶部滚动条*/
+		#header{
+			height:30px;
+			background-color: rgb(204,204,204);
+			position: relative;
+		}
+		#header1{
+			width: 180px;
+			height:30px;
+			position: absolute;
+			top:0px;
+			left: 0px;
+		}
+		#img1{
+			display: inline-block;
+			position: absolute;
+			top:5px;
+			left: 130px;
+		}
+		#d1{
+			height: 30px;
+			width: 850px;
+			position: absolute;
+			top: 0px;
+			left: 160px;
+			overflow: hidden;
+
+		}
+		#d2{
+			height: 30px;
+			width: 1447px;
+			position: absolute;
+			left: -360px;
+		}
+		p{
+			display: inline-block;
+			position: absolute;
+			top: -8px;
+			left: 960px;
+			font-size: 13px;
+			color: rgb(252,22,12);
+			
+		}
+
+		/*轮播图*/
+		#box{
+			width: 1200px;
+			height: 397px;
+			border: 1px solid white;
+			margin: 100px auto;
+			position: relative;
+			overflow: hidden;
+			margin-top: 10px;
+		}
+		#slider{
+			width: 8400px;
+			height: 397px;
+			position: absolute;
+			left: -1200px;
+		}
+		#slide{
+			width: 1200px;
+			height: 397px;
+			overflow: hidden;
+			float: left;
+		}
+		#box>span{
+			display: block;
+			width: 30px;
+			height: 50px;
+			text-align: center;
+			cursor: pointer;
+			color: white;
+			top: 175px;
+			line-height: 50px;
+			background: rgb(255,0,0);
+			font-size: 30px;
+			position: absolute;
+			/*display: none;*/
+			opacity: 0;
+		}
+		#left{
+			left: 30px;
+		}
+		#right{
+			right:30px;
+		}
+		.nav{
+			position: absolute;
+			bottom: 0px;
+			left: 500px;
+			bottom: 10px;
+			margin-bottom: 0px;
+			list-style: none;
+
+		}
+		.nav>li{
+			float: left;
+			width: 20px;
+			height: 20px;
+			background: #ccc;
+			cursor: pointer;
+			margin: 0 10px;
+			border-radius: 50px;
+			text-align: center;
+		}
+		.nav .active{
+			background:red;
+			color: white;
+		}
